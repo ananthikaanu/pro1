@@ -15,3 +15,7 @@
 .posters::-webkit-scrollbar{
     display: none;
 }
+.post{
+    color: aliceblue;
+    padding-left: 15px;
+}
