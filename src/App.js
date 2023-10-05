@@ -5,7 +5,7 @@ import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import Banner from './components/Banner/Banner';
 import RowPosts from "./components/RowPosts/RowPosts"
-import {action,orginals} from './urls'
+import {action,orginals,ComedyMovies,HorrorMovies} from './urls'
 
 function App() {
   return (
@@ -14,7 +14,9 @@ function App() {
       <Banner/>
       <RowPosts  url ={orginals}title='Netflix Orginals'/>
       <RowPosts url ={action}title = 'Action' isSmall/>
-      <RowPosts url ={action}title = 'Action' isSmall/>
+      <RowPosts url ={ComedyMovies}title = 'Comedy Movies' isSmall/>
+      <RowPosts url ={HorrorMovies}title = 'Horror Movies' isSmall/>
+      {/* <RowPosts url ={RomanceMovies}title = 'Romance Movies' isSmall/> */}
     </div>
   );
 }

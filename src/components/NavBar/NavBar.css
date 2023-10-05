@@ -21,12 +21,14 @@
     /* justify-content: space-between; */
     background-color: #111;
 }
-.buttonn{
-    /* height: 50px; */
-    margin-right: 10px;
-    justify-content: space-between;
-    position:left;
-}
 .h1{
     background-color: blueviolet;
+}
+.lists{
+   color: aliceblue; 
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   height: 40px;
 }
