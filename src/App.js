@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <NavBar/>
       <Banner/>
-      <RowPosts/>
-      {/* <DragHandleIcon/> */}
+      <RowPosts title='Netflix Orginals'/>
+      <RowPosts title = 'Action' isSmall/>
     </div>
   );
 }

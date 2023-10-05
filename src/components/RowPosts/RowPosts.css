@@ -9,7 +9,7 @@
     overflow-y: hidden;
 }
 .poster{
-    max-height: 250px;
+    max-height: 200px;
     margin-right: 10px;
 }
 .posters::-webkit-scrollbar{
@@ -18,4 +18,8 @@
 .post{
     color: aliceblue;
     padding-left: 15px;
+}
+.smallPoster{
+    max-width: 170px;
+    margin-right: 10px;
 }
