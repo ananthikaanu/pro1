@@ -8,12 +8,12 @@ function NavBar() {
        <img className="avatar" src="https://i.pinimg.com/originals/0d/dc/ca/0ddccae723d85a703b798a5e682c23c1.png"  alt="netflix-avatar"/>
     </div>
     <div className='lists'>
-      <ul>
-        <li>Home</li>
-        <li>TV Shows</li>
-        <li>Movies</li>
-        <li>Movies</li>
-      </ul>
+      <h2>Home</h2>
+      <h2>TV Shows</h2>
+      <h2>Movies</h2>
+      <h2>New & Popular</h2>
+      <h2>My List</h2>
+      <h2>Browse by Languages</h2>
     </div>
   </div>
   )
